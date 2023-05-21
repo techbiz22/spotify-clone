@@ -6,7 +6,7 @@ interface Props{}
 const LayoutDesignPage:React.FC<React.PropsWithChildren<Props>> = ({children})=>{
   return(
     <>
-    <div>Layout design</div>
+    <div></div>
     <div>{children}</div>
     </>
   )
