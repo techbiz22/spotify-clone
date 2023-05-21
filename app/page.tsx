@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main>
-      Hello
+      <img src="images/sh.jpeg" alt="" />
 
     </main>
   )

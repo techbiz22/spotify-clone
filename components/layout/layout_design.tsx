@@ -1,8 +1,14 @@
 // import React from 'react'
 
-const LayoutDesignPage:React.FC<React.PropsWithChildren> = ({children})=>{
+
+interface Props{}
+
+const LayoutDesignPage:React.FC<React.PropsWithChildren<Props>> = ({children})=>{
   return(
+    <>
     <div>Layout design</div>
+    <div>{children}</div>
+    </>
   )
 }
 

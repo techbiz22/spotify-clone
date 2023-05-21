@@ -1,5 +1,16 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+
 :root {
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+    --nav-header-color:#1b084c;
+    --sidebar-color:#121212;
+    --bg-color:#000000;
+    --card-color:#181818;
 }
